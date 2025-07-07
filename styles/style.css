@@ -35,16 +35,23 @@ a[href^="tel:"] {
 
 .header__logo {
     display: block;
-    width: 129px;
+    width: 148px;
     height: 105px;
 }
 
+.header-logo-image {
+    height: 106px;
+}
+
 .address {
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: flex-start;
     width: 240px;
-    height: 98px;
+    max-height: 98px;
     justify-self: end;
     line-height: 1.24;
+}
+
+.contacts-item {
+    height: 24px;
 }
