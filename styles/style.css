@@ -60,3 +60,33 @@ a[href^="tel:"] {
     min-height: 757px;
     position: relative;
 }
+
+.overlay {
+    background-image: url("/images/cover.jpg");
+}
+
+.cover__title {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+
+.aligned-text {
+    position: relative;
+    display: block;
+}
+.aligned-text_left {
+    padding-top: 165px;
+    padding-left: 50px;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
