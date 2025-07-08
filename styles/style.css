@@ -55,3 +55,8 @@ a[href^="tel:"] {
 .contacts-item {
     height: 24px;
 }
+
+.cover {
+    min-height: 757px;
+    position: relative;
+}
