@@ -110,7 +110,6 @@ a[href^="tel:"] {
     font-size: 22px;
     line-height: 28px;
     font-weight: 400;
-    /*letter-spacing: 1px;*/
     word-spacing: 18.5px;
 }
 
