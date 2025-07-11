@@ -57,7 +57,7 @@ a[href^="tel:"] {
 }
 
 .cover {
-    background-image: url("/images/cover.jpg");
+    background-image: url("../images/cover.jpg");
     background-size: cover;
     position: relative;
     display: flex;
@@ -123,4 +123,32 @@ a[href^="tel:"] {
     line-height: 28px;
     text-transform: uppercase;
     border: 1px solid #fff;
+}
+
+.lots__card-list-item {
+    width: 334px;
+    min-height: 596px;
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
 }
