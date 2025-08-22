@@ -201,32 +201,54 @@ a[href^="tel:"] {
 }
 
 .about {
-    margin-top: 118px;
-    padding: 35px 0 0 47px;
+    margin: 118px 24px 0;
 }
 
 .about__column {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 50px;
+    gap: 25px;
 }
 
 .about__logo-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-top: 35px;
+}
+
+.about__logo {
     width: 240px;
     height: 240px;
-    background: #000;
+    background-color: #000;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__logo-image {
     width: 148px;
+    height: auto;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
 }
 
 .about__title {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 136px;
+    margin-bottom: 100px;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 20px;
+    line-height: 1.2;
 }
