@@ -51,8 +51,6 @@ a[href^="tel:"] {
 }
 
 .address {
-    display: block;
-    align-items: flex-start;
     width: 240px;
     max-height: 98px;
     justify-self: end;
@@ -251,4 +249,16 @@ a[href^="tel:"] {
     gap: 25px;
     font-size: 20px;
     line-height: 1.2;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 3fr;
+    margin-top: 180px;
+    padding: 1px 50px 0;
+}
+
+.footer__address {
+    align-items: flex-start;
+    line-height: 1.24;
 }
