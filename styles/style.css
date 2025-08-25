@@ -15,9 +15,8 @@ body {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px 50px;
+    padding: 92px 50px 96px;
     font-size: 18px;
-    font-weight: 400;
 }
 
 .header__menu-list {
@@ -52,7 +51,6 @@ a[href^="tel:"] {
 
 .address {
     width: 240px;
-    max-height: 98px;
     justify-self: end;
     line-height: 1.24;
 }
@@ -89,7 +87,6 @@ a[href^="tel:"] {
 
 .aligned-text {
     display: block;
-    height: 115px;
 }
 
 .aligned-text_center {
@@ -106,7 +103,7 @@ a[href^="tel:"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 50px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -114,7 +111,6 @@ a[href^="tel:"] {
 .cover__description-text {
     font-size: 22px;
     line-height: 28px;
-    font-weight: 400;
     word-spacing: 18.5px;
 }
 
@@ -155,6 +151,12 @@ a[href^="tel:"] {
     min-height: 596px;
 }
 
+.card-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -175,7 +177,6 @@ a[href^="tel:"] {
 
 .card-text_type {
     font-size: 20px;
-    font-weight: 400;
     margin-top: auto;
 }
 
@@ -194,7 +195,6 @@ a[href^="tel:"] {
 .lots__look-more-link {
     margin-left: 40px;
     font-size: 20px;
-    font-weight: 400;
 }
 
 .about {
