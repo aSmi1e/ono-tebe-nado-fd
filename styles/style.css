@@ -6,7 +6,7 @@ body {
 .card-text_type,
 .card__title,
 .cover__title,
-.cover__description{
+.cover__description {
     position: relative;
     z-index: 1;
 }
