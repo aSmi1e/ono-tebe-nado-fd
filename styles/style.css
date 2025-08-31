@@ -12,12 +12,6 @@
     list-style: circle;
 }
 
-.header__menu-link,
-a[href^="mailto:"],
-a[href^="tel:"] {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-}
 
 .header__menu-link.active {
     border-bottom: none;
@@ -35,17 +29,19 @@ a[href^="tel:"] {
 .header-logo-image {
     height: 100%;
 }
-
+/**/
 .address {
     width: 240px;
     justify-self: end;
-    line-height: 1.24;
+    line-height: 1.35;
 }
 
-.contacts-item {
-    height: 24px;
+.header__menu-link,
+.contacts__list {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
-
+/**/
 .cover {
     position: relative;
     background-image: url("../images/cover.jpg");
