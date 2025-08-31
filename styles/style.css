@@ -37,7 +37,7 @@
 }
 
 .header__menu-link,
-.contacts__list {
+.address-link {
     text-decoration: none;
     border-bottom: 1px solid #000;
 }
