@@ -12,7 +12,6 @@
     list-style: circle;
 }
 
-
 .header__menu-link.active {
     border-bottom: none;
 }
