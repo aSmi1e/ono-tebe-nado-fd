@@ -29,7 +29,7 @@
 .header-logo-image {
     height: 100%;
 }
-/**/
+
 .address {
     width: 240px;
     justify-self: end;
@@ -41,7 +41,7 @@
     text-decoration: none;
     border-bottom: 1px solid #000;
 }
-/**/
+
 .cover {
     position: relative;
     background-image: url("../images/cover.jpg");
